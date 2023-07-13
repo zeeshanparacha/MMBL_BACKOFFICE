@@ -40,7 +40,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "vJ6SXVP4jZW87rEmTrdT2",
+            "id": "yNJofatUvjO90tlUYsTBF",
             "gridProps": [
               {
                 "id": "YMGjaAGtI1ylziOPowKVR",
@@ -64,11 +64,11 @@
                       "font-weight": "300"
                     },
                     "mainContainer": "label",
-                    "xl": 10,
-                    "lg": 10,
-                    "md": 10,
-                    "sm": 4,
-                    "xs": 4
+                    "xl": 8,
+                    "lg": 8,
+                    "md": 8,
+                    "sm": 8,
+                    "xs": 8
                   }
                 },
                 "events": [],
@@ -76,27 +76,204 @@
                 "version": "1.0.0"
               }
             ],
-            "layoutProperties": {
-              "xl": 10,
-              "lg": 10,
-              "md": 10,
-              "sm": 4,
-              "xs": 4
-            },
+            "layoutProperties": { "xl": 8, "lg": 8, "md": 8, "sm": 8, "xs": 8 },
             "path": "0-0"
           },
           {
             "type": "column",
-            "id": "Wo8qMpqjvjWMAA0deeEGG",
-            "gridProps": [],
-            "layoutProperties": { "xl": 1, "lg": 1, "md": 1, "sm": 4, "xs": 4 },
+            "id": "I8eSo9291fEqbQmW7fcGk",
+            "gridProps": [
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "HeaeV3eR4q52vzXdG-X-A",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "p9JH8d9ATPzOYWMtV5mOZ",
+                    "gridProps": [],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    }
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" }
+              }
+            ],
+            "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 },
             "path": "0-1"
           },
           {
             "type": "column",
-            "id": "xAIaABGBI5JWFXYtSi4LX",
-            "gridProps": [],
-            "layoutProperties": { "xl": 1, "lg": 1, "md": 1, "sm": 4, "xs": 4 },
+            "id": "WJvVTC05Gae0qGFMK28aL",
+            "gridProps": [
+              {
+                "type": "10001",
+                "id": "UGhrLi9IFilD6txlDVM5H",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "JLt2CQEzYugEhUfHpv-DR",
+                    "gridProps": [
+                      {
+                        "id": "-jxo8toex7Fl_ylVP98KV",
+                        "type": "20006",
+                        "name": "Button",
+                        "component": { "content": "Button", "type": "20006" },
+                        "attributes": {
+                          "label": "Download ",
+                          "variant": "contained",
+                          "name": "Button",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component."
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "buttonIconPosition": "end",
+                          "asset": null,
+                          "iconname": "GrDocumentPdf",
+                          "iconName": "GrDocumentPdf",
+                          "cssClassNames": [
+                            { "cssClassName": "iconButtonWhite" }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "QZKnD5Ejwn1TFTCwfxpf0",
+                            "triggerName": "RTGS Export Pdf Report",
+                            "serviceType": "8",
+                            "attributes": {
+                              "loaderWidgetIds": [906070],
+                              "messageWidgetIds": [906070],
+                              "responseStateKey": "rtgsPdfResponse",
+                              "url": "/rtgs/export/pdf/report",
+                              "checksum": true,
+                              "encryption": true,
+                              "fileName": "RTGS Report.pdf",
+                              "isDeviceDetails": true,
+                              "loginTrigger": false,
+                              "formData": false,
+                              "logoutTrigger": false,
+                              "headers": {
+                                "Content-Type": "application/json",
+                                "Accept": "application/json",
+                                "channel_key": "001",
+                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                "locale": "en-ltr"
+                              },
+                              "requestBody": [
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "id",
+                                  "value": "id"
+                                }
+                              ],
+                              "baseURL": "634555d068954540043d6820",
+                              "storeType": 2
+                            },
+                            "type": "2",
+                            "name": "On click"
+                          }
+                        ],
+                        "path": "0-2-0-0-0",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    }
+                  }
+                ],
+                "path": "0-2-0",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px 15px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
+              }
+            ],
+            "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 },
             "path": "0-2"
           }
         ],
@@ -124,7 +301,27 @@
         },
         "component": { "type": "10001", "content": "Grid layout" },
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
-        "name": "RTGS View Details Screen"
+        "name": "RTGS View Details Screen",
+        "dimensions": {
+          "rows": 1,
+          "columns": 3,
+          "colSize0xs": 4,
+          "colSize0sm": 4,
+          "colSize0md": 10,
+          "colSize0lg": 10,
+          "colSize0xl": 10,
+          "colSize1xs": 4,
+          "colSize1sm": 4,
+          "colSize1md": 1,
+          "colSize1lg": 1,
+          "colSize1xl": 1,
+          "colSize2xs": 4,
+          "colSize2sm": 4,
+          "colSize2md": 1,
+          "colSize2lg": 1,
+          "colSize2xl": 1
+        },
+        "readOnly": true
       },
       {
         "type": "10001",
@@ -6792,9 +6989,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "yq327VVgsCt8pHoBiWnle",
-    "createdBy": "ajk",
-    "updatedAt": "5/15/2023",
-    "createdAt": "5/15/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "7/13/2023",
+    "createdAt": "7/13/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6804,16 +7001,36 @@
     "attributes": {
       "gridProps": [
         {
-          "layoutProperties": {
-            "xl": 10,
-            "lg": 10,
-            "md": 10,
-            "sm": 4,
-            "xs": 4
-          },
+          "layoutProperties": { "xl": 8, "lg": 8, "md": 8, "sm": 8, "xs": 8 },
           "componentId": "YMGjaAGtI1ylziOPowKVR",
           "componentType": "20002",
           "order": 1
+        },
+        {
+          "componentId": "HeaeV3eR4q52vzXdG-X-A",
+          "componentType": "10001",
+          "id": "HeaeV3eR4q52vzXdG-X-A",
+          "position": {
+            "i": "HeaeV3eR4q52vzXdG-X-A",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 }
+        },
+        {
+          "componentId": "UGhrLi9IFilD6txlDVM5H",
+          "componentType": "10001",
+          "id": "UGhrLi9IFilD6txlDVM5H",
+          "position": {
+            "i": "UGhrLi9IFilD6txlDVM5H",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 }
         }
       ],
       "label": "Header",
@@ -6865,15 +7082,136 @@
           "font-weight": "300"
         },
         "mainContainer": "label",
-        "xl": 10,
-        "lg": 10,
-        "md": 10,
-        "sm": 4,
-        "xs": 4
+        "xl": 8,
+        "lg": 8,
+        "md": 8,
+        "sm": 8,
+        "xs": 8
       }
     },
     "events": [],
     "path": "0-0-0",
+    "version": "1.0.0",
+    "screenId": "yq327VVgsCt8pHoBiWnle",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "HeaeV3eR4q52vzXdG-X-A",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "yq327VVgsCt8pHoBiWnle",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "UGhrLi9IFilD6txlDVM5H",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "-jxo8toex7Fl_ylVP98KV",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px 15px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "yq327VVgsCt8pHoBiWnle",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "-jxo8toex7Fl_ylVP98KV",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "Download ",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "buttonIconPosition": "end",
+      "asset": null,
+      "iconname": "GrDocumentPdf",
+      "iconName": "GrDocumentPdf",
+      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
+    },
+    "events": [
+      {
+        "triggerId": "QZKnD5Ejwn1TFTCwfxpf0",
+        "triggerName": "RTGS Export Pdf Report",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-2-0-0-0",
     "version": "1.0.0",
     "screenId": "yq327VVgsCt8pHoBiWnle",
     "subType": "component",

@@ -1156,7 +1156,6 @@
             },
             "subMenuItemClass": {
               "color": "white",
-              "background-color": "#394c85",
               "height": "40px",
               "background": "#000000 ",
               "fontSize": "13px",
@@ -2430,7 +2429,6 @@
         },
         "subMenuItemClass": {
           "color": "white",
-          "background-color": "#394c85",
           "height": "40px",
           "background": "#000000 ",
           "fontSize": "13px",

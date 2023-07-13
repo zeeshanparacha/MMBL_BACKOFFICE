@@ -1,0 +1,47 @@
+{
+  "id": "QZKnD5Ejwn1TFTCwfxpf0",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "RTGS Export Pdf Report",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "rtgsPdfResponse",
+          "url": "/rtgs/export/pdf/report",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "RTGS Report.pdf",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "id", "value": "id" }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.5d77dnzdh5c8Oihm3ht6YZoba_u_cCxv",
+  "_id": "CN1JNBhDlElYbVjGnDukN",
+  "updatedAt": "7/13/2023",
+  "createdAt": "7/13/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}
