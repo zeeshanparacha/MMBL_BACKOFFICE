@@ -507,6 +507,22 @@
                                 "path": "0-0-1-0-0-0-1"
                               },
                               {
+                                "id": "7qY41oIJQvzjY_hOsfMYy",
+                                "name": "Show Checking Account Modal_8_7_23",
+                                "type": "20031",
+                                "attributes": {
+                                  "widgetId": "OH-ZyVqNhOGCda5NYCvp7",
+                                  "layoutProperties": {
+                                    "xl": 10,
+                                    "lg": 10,
+                                    "md": 10,
+                                    "sm": 10,
+                                    "xs": 10
+                                  }
+                                },
+                                "component": { "type": "20031" }
+                              },
+                              {
                                 "id": "l43rHxF8PdfE54v8BHxJM",
                                 "status": "ACTIVE",
                                 "_id": "610134a1d1f5e860b1e8c751",
@@ -552,11 +568,11 @@
                                   "content": "Grid layout",
                                   "type": "10001"
                                 },
-                                "path": "0-0-1-0-0-0-2",
+                                "path": "0-0-1-0-0-0-3",
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "Mtzs-1X7Chay9Y9Zx95ul",
+                                    "id": "2ywl0h56BQPHQtRshfaIF",
                                     "gridProps": [
                                       {
                                         "id": "K7SykGMJECGkkAI_bOzKT",
@@ -635,8 +651,7 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-1-0-0-0-2-0"
+                                    }
                                   }
                                 ],
                                 "layoutProperties": {
@@ -9729,7 +9744,7 @@
                               },
                               {
                                 "id": "dVvnaKna65gHyyCWigtaf",
-                                "hideStep": true,
+                                "hideStep": false,
                                 "status": "ACTIVE",
                                 "_id": "611a40295ac3689e4b66a0bc",
                                 "name": "DND Layout",
@@ -11385,7 +11400,7 @@
                               },
                               {
                                 "id": "uL8lZa71cZR9XKsVRdSR5",
-                                "hideStep": false,
+                                "hideStep": true,
                                 "status": "ACTIVE",
                                 "_id": "611a40295ac3689e4b66a0bc",
                                 "name": "DND Layout",
@@ -16252,8 +16267,8 @@
     "gitBranchName": "master",
     "_id": "WmWXQsFTiuwzP4UYdLxb4",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/8/2023",
-    "createdAt": "4/8/2023",
+    "updatedAt": "8/7/2023",
+    "createdAt": "8/7/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -16689,6 +16704,18 @@
           "order": 1
         },
         {
+          "layoutProperties": {
+            "xl": 10,
+            "lg": 10,
+            "md": 10,
+            "sm": 10,
+            "xs": 10
+          },
+          "componentId": "7qY41oIJQvzjY_hOsfMYy",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
           "componentId": "l43rHxF8PdfE54v8BHxJM",
           "componentType": "10001",
           "id": "l43rHxF8PdfE54v8BHxJM",
@@ -16845,6 +16872,22 @@
     },
     "component": { "type": "20031" },
     "path": "0-0-1-0-0-0-1",
+    "screenId": "WmWXQsFTiuwzP4UYdLxb4",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "7qY41oIJQvzjY_hOsfMYy",
+    "name": "Show Checking Account Modal_8_7_23",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "OH-ZyVqNhOGCda5NYCvp7",
+      "layoutProperties": { "xl": 10, "lg": 10, "md": 10, "sm": 10, "xs": 10 }
+    },
+    "component": { "type": "20031" },
     "screenId": "WmWXQsFTiuwzP4UYdLxb4",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",

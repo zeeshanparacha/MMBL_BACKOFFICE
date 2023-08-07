@@ -1,0 +1,26 @@
+{
+  "id": "I_lmFsdzoe592Oy96tdUC",
+  "gitBranchName": "master",
+  "name": "Show Checking Account Modal_8_7_23",
+  "projectId": "63f349eda070071e283ca270",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "widgetId": "OH-ZyVqNhOGCda5NYCvp7",
+          "content": "",
+          "type": "",
+          "modalId": "7qY41oIJQvzjY_hOsfMYy"
+        }
+      }
+    }
+  ],
+  "csrf": "0.egyco58yg1q2vWqZZ3Ayhknr_-MSiwuZ",
+  "_id": "aihzmJqakwHQ_gYmBnUuY",
+  "updatedAt": "8/7/2023",
+  "createdAt": "8/7/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}
