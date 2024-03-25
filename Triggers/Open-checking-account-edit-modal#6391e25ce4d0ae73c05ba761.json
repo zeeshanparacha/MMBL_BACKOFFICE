@@ -40,13 +40,41 @@
               "canRead": true
             },
             {
+              "createdBy": "ahmarnew",
+              "updatedBy": "ahmarnew",
+              "_id": "6391d3e8e4d0ae73c05b7843",
+              "id": "ZzJ6zA61iG4f66Y0McCJ4",
+              "gitBranchName": "master",
+              "name": "Checking_Account_Show Modal",
+              "projectId": "63f349eda070071e283ca270",
+              "services": [
+                {
+                  "_id": "6391d440e4d0ae73c05b7960",
+                  "type": "9",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "6391d440e4d0ae73c05b7961",
+                    "attributes": {
+                      "widgetId": "OH-ZyVqNhOGCda5NYCvp7",
+                      "modalId": "X__cLh0gdv2mwV7aWtPku"
+                    },
+                    "type": "1"
+                  }
+                }
+              ],
+              "createdAt": "08-Dec-2022",
+              "updatedAt": "08-Dec-2022",
+              "__v": 1
+            },
+            {
               "createdBy": "haseeb",
               "updatedBy": "haseeb",
               "_id": "63ada4ea21a0d87ea4d2bb52",
               "id": "YBj5nuHLBltTRrC5IEj6C",
               "name": "Save Edit Corporate Old Data",
-              "projectId": "6305eb4fb2d1671fbc4b1de8",
-              "gitBranchName": "Sprint-1",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
               "services": [
                 {
                   "_id": "63ada4ea21a0d87ea4d2bb53",
@@ -78,44 +106,18 @@
               "createdAt": "29-Dec-2022",
               "updatedAt": "29-Dec-2022",
               "__v": 0
-            },
-            {
-              "id": "I_lmFsdzoe592Oy96tdUC",
-              "gitBranchName": "master",
-              "name": "Show Checking Account Modal_8_7_23",
-              "projectId": "63f349eda070071e283ca270",
-              "services": [
-                {
-                  "type": "9",
-                  "command": {
-                    "type": "1",
-                    "attributes": {
-                      "widgetId": "OH-ZyVqNhOGCda5NYCvp7",
-                      "content": "",
-                      "type": "",
-                      "modalId": "7qY41oIJQvzjY_hOsfMYy"
-                    }
-                  }
-                }
-              ],
-              "csrf": "0.egyco58yg1q2vWqZZ3Ayhknr_-MSiwuZ",
-              "_id": "aihzmJqakwHQ_gYmBnUuY",
-              "updatedAt": "8/7/2023",
-              "createdAt": "8/7/2023",
-              "createdBy": "ahmerjavedkhan",
-              "updatedBy": "ahmerjavedkhan"
             }
           ],
           "triggerIds": [
             "C9VAY5AImRfVpeNy7py77",
-            "YBj5nuHLBltTRrC5IEj6C",
-            "I_lmFsdzoe592Oy96tdUC"
+            "ZzJ6zA61iG4f66Y0McCJ4",
+            "YBj5nuHLBltTRrC5IEj6C"
           ]
         }
       }
     }
   ],
-  "csrf": "0.egyco58yg1q2vWqZZ3Ayhknr_-MSiwuZ",
+  "csrf": "0.pyihacpyklXZXwAMIqhQeB5ceZ-tbYf",
   "updatedAt": "8/7/2023",
   "createdAt": "8/7/2023",
   "createdBy": "ahmerjavedkhan",
